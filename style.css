@@ -1,0 +1,66 @@
+
+body{
+    box-sizing: border-box;
+}
+
+ .container, #buttons, h1, ul{
+    margin: 25px auto;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    padding:10px  100px;
+    background: linear-gradient( rgb(60, 66, 66), rgb(146, 141, 141), rgb(201, 201, 204));
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    font-size: larger;
+    color: brown;
+}
+
+h1{
+    color: rgb(173, 125, 19);
+}
+
+ul{
+    display: flex;
+    flex-flow: row;
+    padding-left: 80px;
+    list-style-type:none;
+}
+
+li{
+    background: rgb(173, 125, 19);
+    border:2px solid rgb(73, 48, 2);
+}
+
+/* span{
+    visibility: hidden;
+} */
+
+button{
+    border: 2px solid rgb(124, 118, 118);
+    color: brown;
+    background: rgb(226, 219, 219);
+}
+/* 
+button:hover{
+    display: none;
+} */
+
+li, button{
+    width: 50px;
+    font-size: larger;
+    font-weight: bold;
+    margin: 3px;
+    border-radius: 0.3em;
+}
